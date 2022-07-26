@@ -13,6 +13,11 @@
 		3E41AF93288B2D8E0032D06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41AF91288B2D8E0032D06A /* Main.storyboard */; };
 		3E41AF95288B2D920032D06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E41AF94288B2D920032D06A /* Assets.xcassets */; };
 		3E41AF98288B2D920032D06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41AF96288B2D920032D06A /* LaunchScreen.storyboard */; };
+		3E41AFA1288B2E120032D06A /* Global.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41AF9F288B2E120032D06A /* Global.storyboard */; };
+		3E41AFA3288B2E360032D06A /* Alarm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41AFA2288B2E360032D06A /* Alarm.storyboard */; };
+		3E41AFA6288B2E810032D06A /* Stopwatch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41AFA4288B2E810032D06A /* Stopwatch.storyboard */; };
+		3E41AFA8288B2E970032D06A /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41AFA7288B2E970032D06A /* Timer.storyboard */; };
+		3E41AFAA288B33CC0032D06A /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41AFA9288B33CC0032D06A /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		3E41AF94288B2D920032D06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E41AF97288B2D920032D06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E41AF99288B2D920032D06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E41AFA0288B2E120032D06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HomeWorkUiTab/Base.lproj/Global.storyboard; sourceTree = "<group>"; };
+		3E41AFA2288B2E360032D06A /* Alarm.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Alarm.storyboard; sourceTree = "<group>"; };
+		3E41AFA5288B2E810032D06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HomeWorkUiTab/Base.lproj/Stopwatch.storyboard; sourceTree = "<group>"; };
+		3E41AFA7288B2E970032D06A /* Timer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Timer.storyboard; sourceTree = "<group>"; };
+		3E41AFA9288B33CC0032D06A /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				3E41AF8D288B2D8E0032D06A /* SceneDelegate.swift */,
 				3E41AF8F288B2D8E0032D06A /* ViewController.swift */,
 				3E41AF91288B2D8E0032D06A /* Main.storyboard */,
+				3E41AF9F288B2E120032D06A /* Global.storyboard */,
+				3E41AFA2288B2E360032D06A /* Alarm.storyboard */,
+				3E41AFA4288B2E810032D06A /* Stopwatch.storyboard */,
+				3E41AFA7288B2E970032D06A /* Timer.storyboard */,
+				3E41AFA9288B33CC0032D06A /* TimerViewController.swift */,
 				3E41AF94288B2D920032D06A /* Assets.xcassets */,
 				3E41AF96288B2D920032D06A /* LaunchScreen.storyboard */,
 				3E41AF99288B2D920032D06A /* Info.plist */,
@@ -126,7 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E41AF98288B2D920032D06A /* LaunchScreen.storyboard in Resources */,
+				3E41AFA1288B2E120032D06A /* Global.storyboard in Resources */,
 				3E41AF95288B2D920032D06A /* Assets.xcassets in Resources */,
+				3E41AFA3288B2E360032D06A /* Alarm.storyboard in Resources */,
+				3E41AFA6288B2E810032D06A /* Stopwatch.storyboard in Resources */,
+				3E41AFA8288B2E970032D06A /* Timer.storyboard in Resources */,
 				3E41AF93288B2D8E0032D06A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E41AFAA288B33CC0032D06A /* TimerViewController.swift in Sources */,
 				3E41AF90288B2D8E0032D06A /* ViewController.swift in Sources */,
 				3E41AF8C288B2D8E0032D06A /* AppDelegate.swift in Sources */,
 				3E41AF8E288B2D8E0032D06A /* SceneDelegate.swift in Sources */,
@@ -161,6 +181,22 @@
 				3E41AF97288B2D920032D06A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3E41AF9F288B2E120032D06A /* Global.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E41AFA0288B2E120032D06A /* Base */,
+			);
+			name = Global.storyboard;
+			sourceTree = "<group>";
+		};
+		3E41AFA4288B2E810032D06A /* Stopwatch.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E41AFA5288B2E810032D06A /* Base */,
+			);
+			name = Stopwatch.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -297,6 +333,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +343,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,6 +362,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +372,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
