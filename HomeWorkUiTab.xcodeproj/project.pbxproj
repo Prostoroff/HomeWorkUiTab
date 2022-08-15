@@ -18,6 +18,9 @@
 		3E41AFA6288B2E810032D06A /* Stopwatch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41AFA4288B2E810032D06A /* Stopwatch.storyboard */; };
 		3E41AFA8288B2E970032D06A /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41AFA7288B2E970032D06A /* Timer.storyboard */; };
 		3E41AFAA288B33CC0032D06A /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41AFA9288B33CC0032D06A /* TimerViewController.swift */; };
+		3E44527F28AAAB9900EC638F /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E44527E28AAAB9900EC638F /* AlarmViewController.swift */; };
+		3E44528228AABA1100EC638F /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E44528028AABA1100EC638F /* AlarmTableViewCell.swift */; };
+		3E44528328AABA1100EC638F /* AlarmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E44528128AABA1100EC638F /* AlarmTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		3E41AFA5288B2E810032D06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = HomeWorkUiTab/Base.lproj/Stopwatch.storyboard; sourceTree = "<group>"; };
 		3E41AFA7288B2E970032D06A /* Timer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Timer.storyboard; sourceTree = "<group>"; };
 		3E41AFA9288B33CC0032D06A /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		3E44527E28AAAB9900EC638F /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		3E44528028AABA1100EC638F /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		3E44528128AABA1100EC638F /* AlarmTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +75,12 @@
 				3E41AF8B288B2D8E0032D06A /* AppDelegate.swift */,
 				3E41AF8D288B2D8E0032D06A /* SceneDelegate.swift */,
 				3E41AF8F288B2D8E0032D06A /* ViewController.swift */,
+				3E44528028AABA1100EC638F /* AlarmTableViewCell.swift */,
+				3E44528128AABA1100EC638F /* AlarmTableViewCell.xib */,
 				3E41AF91288B2D8E0032D06A /* Main.storyboard */,
 				3E41AF9F288B2E120032D06A /* Global.storyboard */,
 				3E41AFA2288B2E360032D06A /* Alarm.storyboard */,
+				3E44527E28AAAB9900EC638F /* AlarmViewController.swift */,
 				3E41AFA4288B2E810032D06A /* Stopwatch.storyboard */,
 				3E41AFA7288B2E970032D06A /* Timer.storyboard */,
 				3E41AFA9288B33CC0032D06A /* TimerViewController.swift */,
@@ -147,6 +156,7 @@
 				3E41AFA6288B2E810032D06A /* Stopwatch.storyboard in Resources */,
 				3E41AFA8288B2E970032D06A /* Timer.storyboard in Resources */,
 				3E41AF93288B2D8E0032D06A /* Main.storyboard in Resources */,
+				3E44528328AABA1100EC638F /* AlarmTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,10 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E44527F28AAAB9900EC638F /* AlarmViewController.swift in Sources */,
 				3E41AFAA288B33CC0032D06A /* TimerViewController.swift in Sources */,
 				3E41AF90288B2D8E0032D06A /* ViewController.swift in Sources */,
 				3E41AF8C288B2D8E0032D06A /* AppDelegate.swift in Sources */,
 				3E41AF8E288B2D8E0032D06A /* SceneDelegate.swift in Sources */,
+				3E44528228AABA1100EC638F /* AlarmTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
