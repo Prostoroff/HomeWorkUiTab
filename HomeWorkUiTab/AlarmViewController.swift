@@ -20,6 +20,7 @@ class AlarmViewController: UIViewController {
         
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.allowsFocus = false
         
         tableView.register(UINib(nibName: "AlarmTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
         
@@ -39,5 +40,9 @@ extension AlarmViewController: UITableViewDataSource {
 }
 
 extension AlarmViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
     
 }
+
